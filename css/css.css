@@ -1,0 +1,65 @@
+@import url(//db.onlinewebfonts.com/c/961a181da27e7cbc072ec2fb5bbfe2a9?family=Circular+Std+Bold);
+@import url(//db.onlinewebfonts.com/c/860c3ec7bbc5da3e97233ccecafe512e?family=Circular+Std+Book);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,100;1,200&display=swap');
+
+@font-face {
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+}
+
+:root {
+    --Background: #2222;
+}
+#navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: linear-gradient(#000000,#000000,#000000,#000000) no-repeat;
+    width: 100%;
+    height: 80px;
+    -moz-box-shadow: 3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow: 6px 5px 10px 3px #02000010;;
+    z-index: 2;
+}
+#navbar a {
+    color: #ffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 30px;
+}
+#tecno{
+    margin-left: 380px;
+    margin-right: -40px;
+    width: 65px;
+    height: 65px;
+}
+body {
+    background-color: #262926;
+    font-family: "Circular Std Book" !important;
+    background: url("https://res.cloudinary.com/dkcvvnjjz/image/upload/v1629934904/samples/nano4_sqdcon.png");
+    background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+    display: grid;
+	height: 100vh;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+#img{
+    width: 60%;
+    margin: auto;
+    display: block;
+    display: flex;
+}
