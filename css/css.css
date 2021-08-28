@@ -14,8 +14,8 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 100%;
-    height: 80px;
+    flex-wrap: wrap;
+    height: 100px;
     -moz-box-shadow: 3px 3px 5px 6px #ccc;
     -webkit-box-shadow: 3px 3px 5px 6px #ccc;
     box-shadow: 6px 5px 10px 3px #02000010;;
@@ -59,18 +59,6 @@ html {
     display: block;
     display: flex;
 }
-#text {
-    color: white;
-    display: flex;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    margin-left: 35px;
-}
-#title{
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
-}
 .data {
     font-family: 'Montserrat', sans-serif;
     color: white;
@@ -78,15 +66,20 @@ html {
     letter-spacing: 12px;
     font-weight: 600;
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 52%;
     transform: translate(-50%, -50%);
     margin: auto;
     text-decoration: none;
+
 }
-h1{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    color: linear-gradient(90deg, rgba(5,231,161,1) 0%, rgba(3,115,81,1) 100%);
-    margin-left: 30px;
+#container {
+    position: absolute;
+    top: 90%;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color:#990000;
+    text-align:center;
+    color:#FFFFFF;
 }
