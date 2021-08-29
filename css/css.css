@@ -15,7 +15,7 @@
     flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
-    height: 100px;
+    height: 86px;
     -moz-box-shadow: 3px 3px 5px 6px #ccc;
     -webkit-box-shadow: 3px 3px 5px 6px #ccc;
     box-shadow: 6px 5px 10px 3px #02000010;;
@@ -39,7 +39,7 @@
 }
 body {
     font-family: "Circular Std Book" !important;
-    background: url("https://res.cloudinary.com/dkcvvnjjz/image/upload/v1630023956/Background_vkwctd.png");
+    background: url("https://res.cloudinary.com/dkcvvnjjz/image/upload/v1630182018/daniel-leone-g30P1zcOzXo-unsplash_mugqkw.jpg");
     background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -56,14 +56,13 @@ html {
 #img{
     width: 60%;
     margin: auto;
-    display: block;
     display: flex;
 }
 .data {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sansf-serif;
     color: white;
     font-size: 30px;
-    letter-spacing: 12px;
+    letter-spacing: 5px;
     font-weight: 600;
     position: absolute;
     top: 30%;
@@ -82,4 +81,11 @@ html {
     background-color:#990000;
     text-align:center;
     color:#FFFFFF;
+}
+ h2{
+ color: white;
+ font-family: 'Montserrat', sansf-serif;
+ font-size: 16px;
+ margin-left: 120px;
+ margin-bottom: 80px;
 }
