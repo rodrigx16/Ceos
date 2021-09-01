@@ -9,6 +9,7 @@
     -webkit-box-shadow: 3px 3px 5px 6px #ccc;
     box-shadow: 6px 5px 10px 3px #02000010;;
     z-index: 2;
+    position: sticky;
 }
 #navbar a {
     color: white;
@@ -27,7 +28,7 @@
 }
 body {
     background: url("https://res.cloudinary.com/dkcvvnjjz/image/upload/v1630182018/daniel-leone-g30P1zcOzXo-unsplash_mugqkw.jpg");
-    background-attachment: fixed;
+    background-attachment:fixed;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -75,11 +76,9 @@ html {
  font-size: 18px;
  margin-left: 100px;
 }
-/*.faixa{
-    height: 100px;
+.faixa{
+    height: 100%;
     position: fixed;
-    bottom: 0;
-    width: 100%;
-    background: #1d3438;
+    bottom: 0px;
     background: #1d3438;
 }
