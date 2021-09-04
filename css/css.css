@@ -2,7 +2,7 @@
 
 
 body {
-    background-color: #8eb7ba;
+    background-color: #1b3238;
 }
 
 html {
@@ -18,17 +18,45 @@ html {
     position: center;
     z-index: -1000;
 }
-
 h2{
  color: white;
  font-family: 'Montserrat', sansf-serif;
- font-size: 20px;
+ font-size: 25px;
  margin-right: 100px;
  position: absolute;
  bottom: 45%;
- right: 5%;
+ right: 20%;
  z-index: 1000;
 }
-#faixa{
-    color: bisque;
+#icon{
+   width: 110px;
+   position: absolute;    
+   z-index: 2000;
+   left: 30%;
+   bottom: 45%;
+}
+
+h1{
+    color: white;
+    font-weight: bold;
+    font-family: 'Montserrat', sansf-serif;
+    font-size: 21px;  
+    margin-left: 160px;
+}
+
+h3{
+    font-family: 'Montserrat', sansf-serif;
+    color: white;
+    margin-top: 3%;
+    margin-left: 132px;
+    font-size: 33px;
+}
+h4{
+        font-family: 'Montserrat', sansf-serif;
+        color: white;
+        margin-top: 3%;
+        margin-left: 140px;
+        font-size: 20px;
+        
+
 }
