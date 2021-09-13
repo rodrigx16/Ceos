@@ -57,7 +57,7 @@ h3{
     letter-spacing: 3pt;
 }
 cor{
-  color: gray;
+  color: #64d6e1;
 }
 h4{
   font-family: 'Product sans', sans-serif;
@@ -123,6 +123,4 @@ h4{
         color: white;
         margin-left: 33%;
         font-size: 20px;
-      }
-      /* #icon2{
       }
