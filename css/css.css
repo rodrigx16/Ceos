@@ -52,8 +52,12 @@ h3{
   font-family: 'Product sans', sans-serif;
     color: white;
     margin-top: 3%;
-    margin-left: 132px;
-    font-size: 33px;
+    margin-left: 120px;
+    font-size: 45px;
+    letter-spacing: 3pt;
+}
+cor{
+  color: gray;
 }
 h4{
   font-family: 'Product sans', sans-serif;
