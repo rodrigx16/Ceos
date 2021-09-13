@@ -57,7 +57,18 @@ h3{
     letter-spacing: 3pt;
 }
 cor{
-  color: #64d6e1;
+   
+  background-image:  linear-gradient(to bottom, #6bbbd1, #6fc3d6, #73cada, #78d2de, #7ed9e2, #7ddee5, #7de4e8, #7de9eb, #76eeed, #6ff2ef, #67f7f0, #5ffbf1);
+  
+  
+   background-clip: text;
+   -webkit-background-clip: text; 
+ 
+
+   -webkit-text-fill-color: transparent;
+ 
+   
+   color: black;
 }
 h4{
   font-family: 'Product sans', sans-serif;
