@@ -26,7 +26,6 @@ html {
     background-size: cover;
     background-repeat: no-repeat;
     position: center;
-    z-index: -1000;
 }
 h2{
  color: white;
@@ -36,14 +35,14 @@ h2{
  position: absolute;
  bottom: 45%;
  right: 20%;
- z-index: 1000;
+ z-index: 1;
 
 
 }
 #icon{
    width: 110px;
    position: absolute;    
-   z-index: 2000;
+   z-index: 1;
    left: 30%;
    bottom: 46%;
 }
@@ -126,7 +125,7 @@ h4{
       #faixa1{
         background: linear-gradient(to bottom, #1b3238, #1b3238, #1b3238, #1b3238, #1b3238, #173c43, #0f464d, #005056, #006867, #008071, #009974, #29b170);
         width: 100%;
-        height: 800px;
+        height: 700px;
       }
       h5{
         margin-top: 20px;
