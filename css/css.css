@@ -1,18 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,100;1,200&display=swap');
-
-@font-face {
-  font-family: 'Product Sans';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@300&display=swap');
 
 *root{
  color: #1b3238;
 }
 body {
-    background-color: #1b3238;
+    background-color: white;
 }
 
 html {
@@ -27,33 +19,45 @@ html {
     background-repeat: no-repeat;
     position: center;
 }
+h1{
+  font-family: 'Product sans', sans-serif;
+  color: gray;
+  top: 2%;
+  margin-left: 25%;
+  font-size: 20px;
+}
 h2{
  color: white;
- font-family: 'Product sans', sans-serif;
- font-size: 30px;
- margin-right: 100px;
+ font-family: 'Urbanist', sans-serif;
+ font-size: 38px;
  position: absolute;
- bottom: 45%;
- right: 20%;
+ margin-left: 8%;
  z-index: 1;
-
-
-}
-#icon{
-   width: 110px;
-   position: absolute;    
-   z-index: 1;
-   left: 30%;
-   bottom: 46%;
+ bottom: -20%;
 }
 
 h3{
   font-family: 'Product sans', sans-serif;
-    color: white;
+    color: gray;
     margin-top: 3%;
-    margin-left: 120px;
-    font-size: 45px;
-    letter-spacing: 3pt;
+    margin-left: 18%;
+    font-size: 25px;
+    letter-spacing: 1pt;
+}
+h4{
+  font-family: 'Product sans', sans-serif;
+  color: gray;
+  margin-top: 12%;
+  margin-left: 55%;
+  font-size: 20px;
+}
+h6{
+  font-family: 'Product sans', sans-serif;
+    color: gray;
+    margin-top: 1%;
+    margin-left: 60%;
+    font-size: 15px;
+    letter-spacing: 1pt;
 }
 cor{
    
@@ -69,13 +73,6 @@ cor{
    
    color: black;
 }
-h4{
-  font-family: 'Product sans', sans-serif;
-        color: white;
-        margin-top: 8%;
-        margin-left: 140px;
-        font-size: 20px;
-    }
     #container
      {
       display: flex;
