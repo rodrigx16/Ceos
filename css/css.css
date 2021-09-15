@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@600&display=swap');
 
 *root{
  color: #1b3238;
@@ -12,19 +12,10 @@ html {
     padding: 0;
     scroll-behavior: smooth;
 }
-#img{
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: center;
-}
 h1{
-  font-family: 'Product sans', sans-serif;
-  color: gray;
-  top: 2%;
-  margin-left: 25%;
-  font-size: 20px;
+ color: gray;
+ font-family: 'Urbanist', sans-serif;
+ font-size: 150px;
 }
 h2{
  color: white;
@@ -35,99 +26,43 @@ h2{
  z-index: 1;
  bottom: -20%;
 }
-
 h3{
-  font-family: 'Product sans', sans-serif;
-    color: gray;
-    margin-top: 3%;
-    margin-left: 18%;
-    font-size: 25px;
-    letter-spacing: 1pt;
-}
-h4{
-  font-family: 'Product sans', sans-serif;
   color: gray;
-  margin-top: 12%;
-  margin-left: 55%;
+  font-family: 'Urbanist', sans-serif;
   font-size: 20px;
-}
-h6{
-  font-family: 'Product sans', sans-serif;
-    color: gray;
-    margin-top: 1%;
-    margin-left: 60%;
-    font-size: 15px;
-    letter-spacing: 1pt;
-}
-cor{
-   
-  background-image:  linear-gradient(to bottom, #6bbbd1, #6fc3d6, #73cada, #78d2de, #7ed9e2, #7ddee5, #7de4e8, #7de9eb, #76eeed, #6ff2ef, #67f7f0, #5ffbf1);
-  
-  
-   background-clip: text;
-   -webkit-background-clip: text; 
- 
-
-   -webkit-text-fill-color: transparent;
- 
-   
-   color: black;
-}
-    #container
-     {
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-     }
-    .card {
-        display: grid;
-        grid-template-columns: 300px;
-        grid-template-rows: 210px 210px 80px;
-        grid-template-areas: "image" "text" "stats";
-        border-radius: 18px;
-        background: linear-gradient(to bottom, #ffffff, #f2f6ff, #dcefff, #beeaff, #9ae6ff, #7fdef2, #64d6e1, #4bcece, #39c0b8, #28b2a2, #1aa48c, #0f9676);
-        box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
-        font-family: 'Product Sans', sans-serif;
-        text-align: center;
-        transition: 0.5s ease;
-        cursor: pointer;
-        margin-left: 80px;
-      }
-      .card-image {
-        grid-area: image;
-        background: url("https://media.discordapp.net/attachments/362988933493030912/884620037590224926/artificial-intelligence-3685928_960_720.png");
-        border-top-left-radius: 15px;
-        border-top-right-radius: 15px;
-        background-size: cover;
-      }
-      .card-text {
-        font-family: 'Product sans', sans-serif;
-        grid-area: text;
-        margin: 25px;
-      }
-      .card-text p {
-        font-family: 'Product sans', sans-serif;
-        color: black;
-        font-size:15px;
-      }
-      .card-text h2 {
-        font-family: 'Product sans', sans-serif;
-        margin-top:0px;
-        font-size:28px;
-      }
-      .card:hover {
-        transform: scale(1.15);
-        box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
-      }
-      #faixa1{
-        background: linear-gradient(to bottom, #1b3238, #1b3238, #1b3238, #1b3238, #1b3238, #173c43, #0f464d, #005056, #006867, #008071, #009974, #29b170);
+  text-align: center;
+  margin-top: 5%;
+ }
+ h5{
+  color: gray;
+  font-family: 'Urbanist', sans-serif;
+  font-size: 15px;
+  margin-left: 60%; 
+ }
+       #faixa1{
+        background: white;
+        height: 600px;
         width: 100%;
-        height: 700px;
       }
-      h5{
-        margin-top: 20px;
-        font-family: 'Product sans', sans-serif;
-        color: white;
-        margin-left: 33%;
-        font-size: 20px;
-      }
+      #img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: center;
+}
+#pfp{
+border-radius: 150%; 
+width: 100px;
+height: 100px;
+padding: 10px;
+margin-left: 15%;
+margin-top: 5%;
+}
+.ce{
+ margin-left: 150px;
+ margin-top: 8%;
+}
+.os{
+  margin-left: 150px;
+}
