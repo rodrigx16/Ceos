@@ -2,6 +2,8 @@
 
 *root{
  color: #1b3238;
+ color: #3a3a3a;
+ color: #808080;
 }
 body {
     background-color: white;
@@ -12,13 +14,30 @@ html {
     padding: 0;
     scroll-behavior: smooth;
 }
+.parallax{
+  background-image: url("https://res.cloudinary.com/dkcvvnjjz/image/upload/v1630182018/daniel-leone-g30P1zcOzXo-unsplash_mugqkw.jpg");
+/* Defina uma altura para a visão que o usuário terá da imagem */
+min-height: 800px;
+ 
+/* defina o background como fixo e posicione a imagem */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+cor{
+  background-image:  linear-gradient(to right bottom, #ffffff, #d7d8de, #aeb3be, #83919f, #587080, #446878, #2e5f6e, #105763, #0a646a, #0e706f, #1e7d71, #328971);
+  background-clip: text;
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent;
+}
 h1{
- color: gray;
- font-family: 'Urbanist', sans-serif;
+font-family: 'Urbanist', sans-serif;
  font-size: 150px;
  line-height: 120px;
  margin-top: 10%;
- margin-left: 5%;
+ margin-left: 15%;
 }
 h2{
  color: white;
@@ -27,7 +46,7 @@ h2{
  position: absolute;
  margin-left: 8%;
  z-index: 1;
- bottom: -20%;
+ bottom: 0;
 }
 h3{
   color: gray;
@@ -42,30 +61,8 @@ h3{
   font-size: 15px;
   margin-left: 60%; 
  }
-       #faixa1{
-        background: white;
+   #faixa1{
+       background: white;
         height: 600px;
         width: 100%;
       }
-      #img{
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: center;
-}
-#pfp{
-border-radius: 150%; 
-width: 100px;
-height: 100px;
-padding: 10px;
-margin-left: 15%;
-margin-top: 5%;
-}
-.ce{
- margin-left: 150px;
- margin-top: 8%;
-}
-.os{
-  margin-left: 150px;
-}
