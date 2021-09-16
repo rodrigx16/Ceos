@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@600&display=swap');
+
+*root{
+ color: #1b3238;
+}
+body {
+    background-color: white;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+h1{
+ color: gray;
+ font-family: 'Urbanist', sans-serif;
+ font-size: 150px;
+ line-height: 120px;
+ margin-top: 10%;
+ margin-left: 5%;
+}
+h2{
+ color: white;
+ font-family: 'Urbanist', sans-serif;
+ font-size: 38px;
+ position: absolute;
+ margin-left: 8%;
+ z-index: 1;
+ bottom: -20%;
+}
+h3{
+  color: gray;
+  font-family: 'Urbanist', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 5%;
+ }
+ h5{
+  color: gray;
+  font-family: 'Urbanist', sans-serif;
+  font-size: 15px;
+  margin-left: 60%; 
+ }
+       #faixa1{
+        background: white;
+        height: 600px;
+        width: 100%;
+      }
+      #img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: center;
+}
+#pfp{
+border-radius: 150%; 
+width: 100px;
+height: 100px;
+padding: 10px;
+margin-left: 15%;
+margin-top: 5%;
+}
+.ce{
+ margin-left: 150px;
+ margin-top: 8%;
+}
+.os{
+  margin-left: 150px;
+}
