@@ -16,6 +16,9 @@ h1{
  color: gray;
  font-family: 'Urbanist', sans-serif;
  font-size: 150px;
+ line-height: 120px;
+ margin-top: 10%;
+ margin-left: 5%;
 }
 h2{
  color: white;
