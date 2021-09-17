@@ -14,12 +14,10 @@ html {
     padding: 0;
     scroll-behavior: smooth;
 }
+
 .parallax{
   background-image: url("https://res.cloudinary.com/dkcvvnjjz/image/upload/v1630182018/daniel-leone-g30P1zcOzXo-unsplash_mugqkw.jpg");
-/* Defina uma altura para a visão que o usuário terá da imagem */
 min-height: 800px;
- 
-/* defina o background como fixo e posicione a imagem */
 background-attachment: fixed;
 background-position: center;
 background-repeat: no-repeat;
@@ -27,18 +25,17 @@ background-size: cover;
 }
 
 cor{
-  background-image:  linear-gradient(to right bottom, #ffffff, #d7d8de, #aeb3be, #83919f, #587080, #446878, #2e5f6e, #105763, #0a646a, #0e706f, #1e7d71, #328971);
-  background-clip: text;
-  -webkit-background-clip: text; 
-  -webkit-text-fill-color: transparent;
+  color: black;
 }
+
 h1{
 font-family: 'Urbanist', sans-serif;
- font-size: 150px;
+ font-size: 190px;
  line-height: 120px;
  margin-top: 10%;
  margin-left: 15%;
 }
+
 h2{
  color: white;
  font-family: 'Urbanist', sans-serif;
@@ -48,6 +45,7 @@ h2{
  z-index: 1;
  bottom: 0;
 }
+
 h3{
   color: gray;
   font-family: 'Urbanist', sans-serif;
@@ -55,14 +53,35 @@ h3{
   text-align: center;
   margin-top: 5%;
  }
+
  h5{
   color: gray;
   font-family: 'Urbanist', sans-serif;
   font-size: 15px;
   margin-left: 60%; 
  }
-   #faixa1{
-       background: white;
+
+ h6{
+  color: black;
+  font-family: 'Urbanist', sans-serif;
+  font-size: 20px;
+ }
+
+      #faixa1{
+        background: white;
         height: 600px;
         width: 100%;
       }
+      
+      #left {
+        width: 600px;
+        height: 400px;
+        display: inline-block;
+        margin-left: 150px;
+    }
+      #right {
+       width: 400px;
+       height: 400px;
+        right: 0;
+        display: inline-block;
+    }
