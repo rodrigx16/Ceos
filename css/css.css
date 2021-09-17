@@ -14,6 +14,9 @@ html {
     padding: 0;
     scroll-behavior: smooth;
 }
+p{
+  line-height: 2;
+}
 
 .parallax{
   background-image: url("https://res.cloudinary.com/dkcvvnjjz/image/upload/v1630182018/daniel-leone-g30P1zcOzXo-unsplash_mugqkw.jpg");
@@ -25,13 +28,19 @@ background-size: cover;
 }
 
 cor{
+  background-image:linear-gradient(to right bottom, #05e7a1, #00e4b2, #00e1c1, #08ddcc, #35d9d4);
+  background-clip: text;
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent;
   color: black;
+  
 }
 
 h1{
-font-family: 'Urbanist', sans-serif;
- font-size: 190px;
- line-height: 120px;
+  color: black ;
+ font-family: 'Urbanist', sans-serif;
+ font-size: 250px;
+ line-height: 180px;
  margin-top: 10%;
  margin-left: 15%;
 }
@@ -41,47 +50,50 @@ h2{
  font-family: 'Urbanist', sans-serif;
  font-size: 38px;
  position: absolute;
- margin-left: 8%;
+ margin-left: 10%;
  z-index: 1;
  bottom: 0;
 }
 
 h3{
-  color: gray;
-  font-family: 'Urbanist', sans-serif;
-  font-size: 20px;
-  text-align: center;
-  margin-top: 5%;
- }
-
- h5{
-  color: gray;
-  font-family: 'Urbanist', sans-serif;
-  font-size: 15px;
-  margin-left: 60%; 
- }
-
- h6{
   color: black;
   font-family: 'Urbanist', sans-serif;
   font-size: 20px;
+  text-align: center;
  }
 
-      #faixa1{
-        background: white;
-        height: 600px;
+ h5{
+  color: gray ;
+  font-family: 'Urbanist', sans-serif;
+  font-size: 15px;
+  margin-left: 58%; 
+ }
+
+ h6{
+  color: gray;
+  font-family: 'Urbanist', sans-serif;
+  font-size: 20px;
+ 
+ }
+      .parte1{
+        background-color: white;
         width: 100%;
+        height: 750px;
       }
-      
+      #title{
+        width: 100%;
+      }  
       #left {
-        width: 600px;
+        width: 40%;
         height: 400px;
+        margin-left: 5%;
+        margin-top: 5%;
         display: inline-block;
-        margin-left: 150px;
     }
-      #right {
-       width: 400px;
-       height: 400px;
-        right: 0;
-        display: inline-block;
+       #right {
+        float: right;
+        width: 40%;
+        height: 400px;
+        margin-right: 70px;
+        margin-top: 10%;
     }
