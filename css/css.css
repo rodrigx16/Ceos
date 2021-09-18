@@ -82,11 +82,13 @@ h3{
       }
       #title{
         width: 100%;
+        background-color: white;
+        height: 150px;
       }  
       #left {
         width: 40%;
-        height: 400px;
-        margin-left: 5%;
+        height: 250px;
+        margin-left: 10%;
         margin-top: 5%;
         display: inline-block;
     }
@@ -97,3 +99,18 @@ h3{
         margin-right: 70px;
         margin-top: 10%;
     }
+    #pfp{
+      align-items: center;
+      margin-left: 240px;
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+    }
+    #linha-vertical {
+      height: 350px;
+      border-right: 2px solid #45b1aa;
+      background-image: linear-gradient(to bottom, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+  }
+  #meio{
+    display: inline-block;
+  }
