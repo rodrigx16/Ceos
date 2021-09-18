@@ -118,3 +118,32 @@ h3{
      background-color: black;
      width: 100%;
     }
+    .parte2{
+      background-image: white;
+      width: 100%;
+      height: 700px;
+      position: absolute;
+      z-index: -1;
+    }
+    #texto{
+      margin-left: 10%;
+      width: 35%;
+      height: 450px;
+      margin-top: 10%;
+      display: inline-block;
+    }
+    #t2{
+      color: black;
+      line-height: 2;
+      align-items: center;
+      letter-spacing: 2px;
+    }
+    #pf{
+     border-radius: 50%;
+     width: 1100px;
+     height: 900px;
+     transform: translate(65%, -30%);
+     position: absolute;
+     z-index: -1;
+     float: right;
+    }
