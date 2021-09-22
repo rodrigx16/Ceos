@@ -1,149 +1,165 @@
-@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@400;900&display=swap');
 
-*root{
- color: #1b3238;
- color: #3a3a3a;
- color: #808080;
-}
-body {
-    background-color: white;
-}
 
-html {
-    margin: 0;
-    padding: 0;
-    scroll-behavior: smooth;
+
+body, html{
+  font-family: 'Urbanist', sans-serif;
+  margin: 0 !important;
+  padding: 0 !important;
 }
-p{
-  line-height: 2;
+body{
+  display: flex;
+  flex-direction: column;
+
 }
 
-.parallax{
-  background-image: url("https://res.cloudinary.com/dkcvvnjjz/image/upload/v1630182018/daniel-leone-g30P1zcOzXo-unsplash_mugqkw.jpg");
-min-height: 800px;
-background-attachment: fixed;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
+.section{
+width:100%;
+height:100vh;
+}
+#section-introducao{
+}
+#section-explicacao{
+  width:100%;
+  height:1000px;
+  display: flex;
+  flex-direction:column;
+}
+.section-parafrase{
+  width: 100%;
+  display:flex;
+
+  height: 30%;
+}
+.section-introducao-projeto{
+  width:100%;
+  height:70%;
+  display: flex;
 }
 
-cor{
-  background-image:linear-gradient(to right bottom, #05e7a1, #00e4b2, #00e1c1, #08ddcc, #35d9d4);
-  background-clip: text;
-  -webkit-background-clip: text; 
-  -webkit-text-fill-color: transparent;
-  color: black;
+.parafrase-foto{
+  width:25%;
+  height:100%;
+  min-width:200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#moldura-foto{
+  width:150px;
+  height:150px;
+  min-width:150px;
+  min-height:150px;
+  border-radius:100%;
+background-image:url("../img/pfp2.png");
+background-size:cover;
+}
+#quote{
+  font-size:30px;
+ margin:20px;
+}
+.section-frase{
+  width:75%;
+  height:100%;
+  display: flex;
+align-items:center;
+justify-content: center;
+flex-direction: column;
+}
+#quote-author{
+  font-size:15px;
+  float:right;
+
+}
+#camada-sobreposicao{
+  width:100vw;
+}
+#camada-fundo{
+  width:100vw;
   
 }
-
-h1{
-  color: black ;
- font-family: 'Urbanist', sans-serif;
- font-size: 250px;
- line-height: 180px;
- margin-top: 10%;
- margin-left: 15%;
+.ceos-logo{
+ width:39%;
+ display:flex;
+ align-items: center;
+ justify-content: center;
+ font-weight: bold;
+  color: grey;
 }
-
-h2{
- color: white;
- font-family: 'Urbanist', sans-serif;
- font-size: 38px;
- position: absolute;
- margin-left: 10%;
- z-index: 1;
- bottom: 0;
+.ceos-logo h1{
+  margin-bottom: -90px;
+  font-size: 250px;
+  font-weight: 900;
+  margin-top: -70px;
 }
-
-h3{
+.ceos-logo #logo-os{
+  margin-left: 50px;
+}
+.ceos-info{
+  width:60%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+#divisao{
+  width: 1%;
+  height:100%;
+  background-color:inherit;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+#divisor{
+  width: 25%;
+  height:30%;
+  background-color: grey;
+  border-radius: 30px;
+}
+#descricao{
   color: black;
-  font-family: 'Urbanist', sans-serif;
-  font-size: 20px;
-  text-align: center;
- }
-
- h5{
-  color: gray ;
-  font-family: 'Urbanist', sans-serif;
-  font-size: 15px;
-  margin-left: 58%; 
- }
-
- h6{
-  color: gray;
-  font-family: 'Urbanist', sans-serif;
-  font-size: 20px;
- 
- }
-      .parte1{
-        background-color: white;
-        width: 100%;
-        height: 900px;
-      }
-      #title{
-        width: 100%;
-        background-color: white;
-        height: 150px;
-      }  
-      #left {
-        width: 40%;
-        height: 250px;
-        margin-left: 10%;
-        margin-top: 5%;
-        display: inline-block;
-      }
-       #right {
-        float: right;
-        width: 40%;
-        height: 400px;
-        margin-right: 70px;
-        margin-top: 10%;
-      }
-       #pfp{
-      align-items: center;
-      margin-left: 240px;
-      width: 100px;
-      height: 100px;
-      border-radius: 50%;
-     }
-      #linha-vertical {
-      height: 350px;
-      border-right: 2px solid #45b1aa;
-      background-image: linear-gradient(to bottom, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
-     }
-     #meio{
-     display: inline-block;
-     }
-     .faixa{
-     background-color: black;
-     width: 100%;
-    }
-    .parte2{
-      background-image: white;
-      width: 100%;
-      height: 700px;
-      position: absolute;
-      z-index: -1;
-    }
-    #texto{
-      margin-left: 10%;
-      width: 35%;
-      height: 450px;
-      margin-top: 10%;
-      display: inline-block;
-    }
-    #t2{
-      color: black;
-      line-height: 2;
-      align-items: center;
-      letter-spacing: 2px;
-    }
-    #pf{
-     border-radius: 50%;
-     width: 1100px;
-     height: 900px;
-     transform: translate(65%, -30%);
-     position: absolute;
-     z-index: -1;
-     float: right;
-    }
+  font-size: 25px;
+  margin-left: 15%;
+  margin-right: 15%;
+  line-height: 45px;
+}
+.section-teste{
+  width: 100%;
+  height: 900px;
+  display: flex;
+}
+#ceos-teste{
+  width: 30%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+h3{
+  font-size: 25px;
+  color: black;
+  margin-left: 5px;
+  line-height: 40px;
+  letter-spacing: 1px;
+}
+#teste{
+  margin-top: 25%;
+  margin-left: 25%;
+  margin-right: 15%;
+}
+#ceos-img{
+  width: 70%;
+  height: 100%;
+  display:flex;
+  overflow: hidden;
+  flex-direction:row-reverse;
+}
+#image{
+  margin-top:-150px;
+  margin-right:-150px;
+  width: 1000px;
+  height: 90%;
+  
+  border-radius: 50%;
+  
+}
+/* <div class="section-parafrase"></div>
+        <div class="section-introducao-projeto"></div> */
