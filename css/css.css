@@ -6,13 +6,14 @@ body, html{
   font-family: 'Urbanist', sans-serif;
   margin: 0 !important;
   padding: 0 !important;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 body{
   display: flex;
   flex-direction: column;
 
 }
-
 .section{
 width:100%;
 height:100vh;
@@ -25,6 +26,7 @@ height:100vh;
   height:1000px;
   display: flex;
   flex-direction:column;
+  background-color: #D2F5FE;
 }
 .section-parafrase{
   width: 100%;
@@ -70,14 +72,15 @@ flex-direction: column;
 #quote-author{
   font-size:15px;
   float:right;
-
-}
-#camada-sobreposicao{
-  width:100vw;
 }
 #camada-fundo{
-  width:100vw;
-  
+  background-image: url("https://res.cloudinary.com/dkcvvnjjz/image/upload/v1630182018/daniel-leone-g30P1zcOzXo-unsplash_mugqkw.jpg");
+  width: 100%;
+  height: 100%; 
+  background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover
 }
 .ceos-logo{
  width:39%;
@@ -89,9 +92,30 @@ flex-direction: column;
 }
 .ceos-logo h1{
   margin-bottom: -90px;
-  font-size: 250px;
+  font-size: 300px;
   font-weight: 900;
   margin-top: -70px;
+  background-image: linear-gradient(to right, #0ff, #0f0, #00FFFB, #38FF5C);
+  background-clip: text;
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent;
+  animation: animate 20s linear infinite;
+  background-size: 1000%;
+}
+@keyframes animate 
+{
+  0%
+  {
+  background-position: 0% 100%;
+  } 
+  50%
+  {
+  background-position: 100% 0%;
+  } 
+  100%
+  {
+  background-position: 0% 100%;
+  }
 }
 .ceos-logo #logo-os{
   margin-left: 50px;
@@ -101,6 +125,36 @@ flex-direction: column;
   align-items: center;
   justify-content: center;
   display: flex;
+}
+#slogan{
+  width: 40%;
+  height: 15%;
+  position:absolute; 
+  bottom: 0;
+  margin-bottom: 3%;
+  margin-left: 5%;
+}
+h4{
+ font-size: 30px; 
+ color: white;
+ font-weight: normal;
+}
+#title{
+  color: transparent;
+  font-size: 450px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000;
+  font-weight: 900;
+}
+#titulo{
+ width: 100%;
+ height: 250px;
+ transform: translateY(-50%);
+ top: 25%;
+ position: absolute;
 }
 #divisao{
   width: 1%;
@@ -155,10 +209,9 @@ h3{
 }
 #image{
   margin-top:-150px;
-  margin-right:-150px;
+  margin-right:-130px;
   width: 1000px;
-  height: 90%;
-  
+  height: 900px;
   border-radius: 50%;
   
 }
