@@ -83,7 +83,7 @@ background-repeat: no-repeat;
 background-size: cover
 }
 .ceos-logo{
- width:39%;
+ width:49%;
  display:flex;
  align-items: center;
  justify-content: center;
@@ -121,7 +121,7 @@ background-size: cover
   margin-left: 50px;
 }
 .ceos-info{
-  width:60%;
+  width:50%;
   align-items: center;
   justify-content: center;
   display: flex;
@@ -172,10 +172,11 @@ h4{
 }
 #descricao{
   color: black;
-  font-size: 25px;
+  font-size: 22px;
   margin-left: 15%;
   margin-right: 15%;
   line-height: 45px;
+  text-align: justify;
 }
 .section-teste{
   width: 100%;
@@ -209,8 +210,8 @@ h3{
 }
 #image{
   margin-top:-150px;
-  margin-right:-130px;
-  width: 1000px;
+  margin-right:-150px;
+  width: 900px;
   height: 900px;
   border-radius: 50%;
   
