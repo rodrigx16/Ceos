@@ -73,6 +73,10 @@ flex-direction: column;
   font-size:15px;
   float:right;
 }
+#quote-translate{
+  font-size:15px;
+  float:right;
+}
 #camada-fundo{
   background-image: url("https://res.cloudinary.com/dkcvvnjjz/image/upload/v1630182018/daniel-leone-g30P1zcOzXo-unsplash_mugqkw.jpg");
   width: 100%;
@@ -137,7 +141,7 @@ background-size: cover
 h4{
  font-size: 30px; 
  color: white;
- font-weight: normal;
+ font-weight: lighter;
 }
 #title{
   color: transparent;
@@ -200,6 +204,8 @@ h3{
   margin-top: 25%;
   margin-left: 30%;
   margin-right: 10%;
+  color: black;
+  text-align: justify;
 }
 #ceos-img{
   width: 70%;
@@ -214,7 +220,11 @@ h3{
   width: 900px;
   height: 900px;
   border-radius: 50%;
-  
+}
+.section-teste2{
+  width: 100%;
+  height: 800px;
+  background-color: #D2F5FE;
 }
 /* <div class="section-parafrase"></div>
         <div class="section-introducao-projeto"></div> */
