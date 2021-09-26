@@ -8,100 +8,13 @@ body, html{
   padding: 0 !important;
   scroll-behavior: smooth;
   overflow-x: hidden;
+  background: #282828;
 }
 body{
   display: flex;
   flex-direction: column;
-
 }
-svg {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%) rotate(45deg) scale(1);
-  transform: translate(-50%, -50%) rotate(45deg) scale(1);
-}
-
-.stroke-still {
-  stroke: #232323;
-}
-
-.stroke-animation {
-  -webkit-animation: stroke-spacing 1.2s ease-in, stroke-color 4.8s linear;
-          animation: stroke-spacing 1.2s ease-in, stroke-color 4.8s linear;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-delay: 0;
-          animation-delay: 0;
-  -webkit-animation-direction: normal;
-          animation-direction: normal;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-  -webkit-animation-play-state: running;
-          animation-play-state: running;
-  -webkit-transform-origin: center center;
-          transform-origin: center center;
-}
-
-@-webkit-keyframes stroke-spacing {
-  0% {
-    stroke-dasharray: 0 200;
-  }
-  45% {
-    stroke-dashoffset: 0;
-    stroke-dasharray: 200 200;
-  }
-  90% {
-    stroke-dashoffset: -200;
-    stroke-dasharray: 200 200;
-  }
-  100% {
-    stroke-dashoffset: -200;
-    stroke-dasharray: 200 200;
-  }
-}
-
-@keyframes stroke-spacing {
-  0% {
-    stroke-dasharray: 0 200;
-  }
-  45% {
-    stroke-dashoffset: 0;
-    stroke-dasharray: 200 200;
-  }
-  90% {
-    stroke-dashoffset: -200;
-    stroke-dasharray: 200 200;
-  }
-  100% {
-    stroke-dashoffset: -200;
-    stroke-dasharray: 200 200;
-  }
-}
-
-@-webkit-keyframes stroke-color {
-  0%  { stroke: #71c6ff; }
-  24% { stroke: #91ff52; }
-  25% { stroke: #54e2ba; }
-  49% { stroke: #296b58; }
-  50% { stroke: #5b5bc9; }
-  74% { stroke: #3464a1; }
-  75% { stroke: #b44685; }
-  99% { stroke: #ff5db9; }
-}
-
-@keyframes stroke-color {
-  0%  { stroke: #71c6ff; }
-  24% { stroke: #91ff52; }
-  25% { stroke: #54e2ba; }
-  49% { stroke: #296b58; }
-  50% { stroke: #5b5bc9; }
-  74% { stroke: #3464a1; }
-  75% { stroke: #b44685; }
-  99% { stroke: #ff5db9; }
-}
-
-/*.section{
+.section{
 width:100%;
 height:100vh;
 }
@@ -116,13 +29,15 @@ height:100vh;
 .section-parafrase{
   width: 100%;
   display:flex;
-
   height: 25%;
+  border-radius: .5rem;
+  border: solid .0625rem #e8e8e8;   
 }
 .section-introducao-projeto{
   width:100%;
   height:70%;
   display: flex;
+
 }
 
 .parafrase-foto{
@@ -132,6 +47,7 @@ height:100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 #moldura-foto{
   width:150px;
@@ -153,6 +69,7 @@ background-size:cover;
 align-items:center;
 justify-content: center;
 flex-direction: column;
+
 }
 #quote-author{
   font-size:15px;
@@ -181,7 +98,7 @@ background-size: cover
 .ceos-logo h1{
   margin-bottom: -90px;
   font-size: 300px;
-  font-weight: 900;
+  font-weight: 800;
   margin-top: -70px;
   background-image: linear-gradient(to right, #0ff, #0f0, #00FFFB, #38FF5C);
   background-clip: text;
@@ -234,7 +151,7 @@ h4{
   margin: 0;
   padding: 0;
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #000;
+  -webkit-text-stroke-color: #000000;
   font-weight: 900;
 }
 #titulo{
@@ -255,7 +172,7 @@ h4{
 #divisor{
   width: 25%;
   height:30%;
-  background-color: black;
+  background-color: #f37500;
   border-radius: 30px;
 }
 #descricao{
@@ -270,7 +187,7 @@ h4{
   width: 100%;
   height: 900px;
   display: flex;
-  background-color: #f7f1e3;
+  background-color: white;
 }
 #ceos-teste{
   width: 30%;
@@ -290,7 +207,9 @@ h3{
   margin-left: 30%;
   margin-right: 10%;
   color: black;
+  font-weight: 400;
   text-align: left;
+  text-shadow: 1px 1px rgb(204, 188, 188);
 }
 #ceos-img{
   width: 70%;
@@ -305,6 +224,9 @@ h3{
   width: 900px;
   height: 900px;
   border-radius: 50%;
+}
+color{
+  color: #FF8566;
 }
 .section-teste2{
   width: 100%;
@@ -332,7 +254,7 @@ align-items: center;
 #messages{
   width: 50%;
   height: 100%;
-  background-color: #4bcffa;
 }
+
 /* <div class="section-parafrase"></div>
         <div class="section-introducao-projeto"></div> */
