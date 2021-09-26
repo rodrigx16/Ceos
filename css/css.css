@@ -14,25 +14,110 @@ body{
   flex-direction: column;
 
 }
-.section{
+svg {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%) rotate(45deg) scale(1);
+  transform: translate(-50%, -50%) rotate(45deg) scale(1);
+}
+
+.stroke-still {
+  stroke: #232323;
+}
+
+.stroke-animation {
+  -webkit-animation: stroke-spacing 1.2s ease-in, stroke-color 4.8s linear;
+          animation: stroke-spacing 1.2s ease-in, stroke-color 4.8s linear;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-delay: 0;
+          animation-delay: 0;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+@-webkit-keyframes stroke-spacing {
+  0% {
+    stroke-dasharray: 0 200;
+  }
+  45% {
+    stroke-dashoffset: 0;
+    stroke-dasharray: 200 200;
+  }
+  90% {
+    stroke-dashoffset: -200;
+    stroke-dasharray: 200 200;
+  }
+  100% {
+    stroke-dashoffset: -200;
+    stroke-dasharray: 200 200;
+  }
+}
+
+@keyframes stroke-spacing {
+  0% {
+    stroke-dasharray: 0 200;
+  }
+  45% {
+    stroke-dashoffset: 0;
+    stroke-dasharray: 200 200;
+  }
+  90% {
+    stroke-dashoffset: -200;
+    stroke-dasharray: 200 200;
+  }
+  100% {
+    stroke-dashoffset: -200;
+    stroke-dasharray: 200 200;
+  }
+}
+
+@-webkit-keyframes stroke-color {
+  0%  { stroke: #71c6ff; }
+  24% { stroke: #91ff52; }
+  25% { stroke: #54e2ba; }
+  49% { stroke: #296b58; }
+  50% { stroke: #5b5bc9; }
+  74% { stroke: #3464a1; }
+  75% { stroke: #b44685; }
+  99% { stroke: #ff5db9; }
+}
+
+@keyframes stroke-color {
+  0%  { stroke: #71c6ff; }
+  24% { stroke: #91ff52; }
+  25% { stroke: #54e2ba; }
+  49% { stroke: #296b58; }
+  50% { stroke: #5b5bc9; }
+  74% { stroke: #3464a1; }
+  75% { stroke: #b44685; }
+  99% { stroke: #ff5db9; }
+}
+
+/*.section{
 width:100%;
 height:100vh;
 }
-/*#section-introducao{
-}
-*/
+
 #section-explicacao{
   width:100%;
   height:1000px;
   display: flex;
   flex-direction:column;
-  background-color: #D2F5FE;
+  background-color: white;
 }
 .section-parafrase{
   width: 100%;
   display:flex;
 
-  height: 30%;
+  height: 25%;
 }
 .section-introducao-projeto{
   width:100%;
@@ -92,7 +177,6 @@ background-size: cover
  align-items: center;
  justify-content: center;
  font-weight: bold;
-  color: grey;
 }
 .ceos-logo h1{
   margin-bottom: -90px;
@@ -171,7 +255,7 @@ h4{
 #divisor{
   width: 25%;
   height:30%;
-  background-color: grey;
+  background-color: black;
   border-radius: 30px;
 }
 #descricao{
@@ -186,6 +270,7 @@ h4{
   width: 100%;
   height: 900px;
   display: flex;
+  background-color: #f7f1e3;
 }
 #ceos-teste{
   width: 30%;
@@ -201,11 +286,11 @@ h3{
   letter-spacing: 1px;
 }
 #teste{
-  margin-top: 25%;
+  margin-top: 30%;
   margin-left: 30%;
   margin-right: 10%;
   color: black;
-  text-align: justify;
+  text-align: left;
 }
 #ceos-img{
   width: 70%;
@@ -224,7 +309,30 @@ h3{
 .section-teste2{
   width: 100%;
   height: 800px;
-  background-color: #D2F5FE;
+  background-color: white;
+  display: flex;
+}
+#logo-img{
+width: 50%;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#ceos-moldura{
+  width:450px;
+  height:450px;
+  min-width:450px;
+  min-height:450px;
+}
+#ceos-image{
+  width: 450px;
+  height: 450px;
+}
+#messages{
+  width: 50%;
+  height: 100%;
+  background-color: #4bcffa;
 }
 /* <div class="section-parafrase"></div>
         <div class="section-introducao-projeto"></div> */
