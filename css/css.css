@@ -251,10 +251,54 @@ align-items: center;
   width: 450px;
   height: 450px;
 }
-#messages{
+.proj-bnf{
   width: 50%;
   height: 100%;
+  display: flex;
+  flex-direction:column;
 }
-
-/* <div class="section-parafrase"></div>
-        <div class="section-introducao-projeto"></div> */
+.bnf-section{
+  width: 100%;
+  height: 20%;
+  display: flex;
+}
+#bnf-ind{
+width: 50%;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+#ind-ind{
+  width: 100%;
+  height: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: right
+}
+#indicator{
+  width: 75%;
+  height: 4%;
+  background-color: #f14e25;
+  border-radius: 30px;
+  margin-right: 8px;
+}
+#bnf-titulo{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+#title-section{
+  width: 100%;
+  height: 30%;
+}
+#bnf-text{
+  background-color: lime;
+  width: 100%;
+  height: 10%;
+}
+/*
+ display: flex;
+  flex-direction: row;
