@@ -230,7 +230,7 @@ color{
 }
 .section-teste2{
   width: 100%;
-  height: 800px;
+  height: 1000px;
   background-color: white;
   display: flex;
 }
@@ -247,7 +247,7 @@ align-items: center;
   min-width:450px;
   min-height:450px;
   border-radius: 50%;
-  background-color: #f37500;
+  background-color: black;
 }
 #ceos-image{
   width: 450px;
@@ -406,6 +406,13 @@ background-color: transparent;
 #baloon-h3{
   font-size: 15px;
   text-align: justify;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+#section-brands{
+  background-color: #f0ecec;
+  width: 100%;
+  height: 250px;
 }
 /*
  display: flex;
