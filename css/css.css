@@ -413,6 +413,7 @@ background-color: transparent;
   background-image: linear-gradient(to right, #7bed9f, #77f19e, #74f49c, #70f89b, #6cfb99, #63fca2, #5afeab, #50ffb4, #46ffc7, #45fed8, #4efde6, #5ffbf1);
   width: 100%;
   height: 300px;
+  /*box-shadow: 2px 2px gray, -1em 0 0.4em gray;*/
 }
 #section-title-brands{
 
@@ -516,25 +517,18 @@ height: 60px;
   text-align: center;
 }
 #bg-vid-section{
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(255, 0, 98);
   width: 100%;
-  height: 830px;
+  height: 1080px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
 }
-#vid-ceos{
-background-color: yellow;
-width: 100%;
-height: 100%;
-position: relative;
-overflow:hidden;
-}
-#bg-video{
-  z-index: inherit;
-position: absolute;
-width: auto;
-height: auto;
-min-width: 100%;
-min-height: 100%;
-top:50%;
-left:50%;
-transform: translate(-50%, -50%);
+.video-bg{
+ position: absolute;
+ top: 0;
+ min-width: 100%;
+ min-height: 100%;
 }
