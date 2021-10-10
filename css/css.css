@@ -172,7 +172,7 @@ h4{
 #divisor{
   width: 25%;
   height:30%;
-  background-color: #f37500;
+  background-color: #00a4aa;
   border-radius: 30px;
 }
 #descricao{
@@ -185,7 +185,7 @@ h4{
 }
 .section-teste{
   width: 100%;
-  height: 900px;
+  height: 850px;
   display: flex;
   background-color: white;
 }
@@ -209,7 +209,6 @@ h3{
   color: black;
   font-weight: 400;
   text-align: left;
-  text-shadow: 1px 1px rgb(204, 188, 188);
 }
 #ceos-img{
   width: 70%;
@@ -226,13 +225,14 @@ h3{
   border-radius: 50%;
 }
 color{
-  color: #FF8566;
+  color: #00a4aa;
 }
 .section-teste2{
   width: 100%;
   height: 1000px;
   background-color: white;
   display: flex;
+  padding-bottom: 150px;
 }
 #logo-img{
 width: 50%;
@@ -247,7 +247,7 @@ align-items: center;
   min-width:450px;
   min-height:450px;
   border-radius: 50%;
-  background-color: black;
+  background-color: white;
 }
 #ceos-image{
   width: 450px;
@@ -258,7 +258,6 @@ align-items: center;
   height: 100%;
   display: flex;
   flex-direction: column;
-  background-color: transparent;
 }
 #chat-title{
   width: 100%;
@@ -340,8 +339,8 @@ align-items: center;
   justify-content: center;
 }
 #user-img{
-  width:50px;
-  height:50px;
+  width:80px;
+  height:8 0px;
 }
 .border-img{
   width:80px;
@@ -349,7 +348,7 @@ align-items: center;
   min-width:80px;
   min-height:80px;
   border-radius:100%;
-  background-color: #d6c8c8;
+  background-color: #ffffff;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -410,10 +409,132 @@ background-color: transparent;
   margin-top: 10px;
 }
 #section-brands{
-  background-color: #f0ecec;
+  /*background-image: linear-gradient(to right, #6beeff, #63edff, #5aecff, #51ebff, #46eaff, #37ecfd, #25edfb, #00eff9, #00f4f2, #00f8e9, #00fcde, #18ffd1);*/
+  background-image: linear-gradient(to right, #7bed9f, #77f19e, #74f49c, #70f89b, #6cfb99, #63fca2, #5afeab, #50ffb4, #46ffc7, #45fed8, #4efde6, #5ffbf1);
   width: 100%;
-  height: 250px;
+  height: 300px;
 }
-/*
+#section-title-brands{
+
+height: 150px;
+width: 100%;
+display: flex;
+flex-direction: column;
+}
+#title-brands{
+width: 100%;
+height: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#subtitle-brands{
+width: 100%;
+height: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#brands-picture{
+height: 150px;
+width: 100%;
+display: flex;
+flex-direction: row;
+}
+#box-title-brand{
+  width: 800px;
+  height: 100%;
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+#box-subtitle-brand{
+  width: 500px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+#t-brands{
+  font-size: 45px;
+  color: black;
+}
+#sub-brands{
+  font-size: 30px;
+}
+.brands{
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.name-brand{
+
+ width: 120px;
+ height: 50px;
+ justify-content: center;
+ align-items: center;
  display: flex;
-  flex-direction: row;
+}
+.brands-picture{
+width: 90px;
+height: 90px;
+border-radius: 100%;
+min-width: 90px;
+min-height: 90px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+#startup{
+width: 60px;
+height: 60px;
+}
+#empresa{
+  width: 60px;
+  height: 60px;
+}
+#brand{
+    width: 60px;
+    height: 60px;
+}
+#agencia{
+  width: 60px;
+    height: 60px;
+}
+#influenciador{
+  width: 60px;
+  height: 60px;
+}
+#names-brands{
+  font-size: 20px;
+  color: black;
+  font-weight: lighter;
+  text-align: center;
+}
+#bg-vid-section{
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 830px;
+}
+#vid-ceos{
+background-color: yellow;
+width: 100%;
+height: 100%;
+position: relative;
+overflow:hidden;
+}
+#bg-video{
+  z-index: inherit;
+position: absolute;
+width: auto;
+height: auto;
+min-width: 100%;
+min-height: 100%;
+top:50%;
+left:50%;
+transform: translate(-50%, -50%);
+}
