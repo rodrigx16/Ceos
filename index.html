@@ -8,6 +8,7 @@
       <link rel="icon" href="img/nano2.png"/>
       <link rel="stylesheet" href="css/bootstrap.min.css">
       <script src="js/bootstrap.min.js" crossorigin="anonymous"></script> 
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
       <link rel="stylesheet" href="css/css.css">
    </head>
    <body>
@@ -27,7 +28,7 @@
             <div id="moldura-foto"></div>
          </div>
          <div class="section-frase">
-            <h2 id="quote-translate">(“Nossa Inteligência é o que nos faz humanos, e a I.A é uma extensão dessa qualidade.”)</h2>
+            <h2 id="quote-translate"><i>“Nossa Inteligência é o que nos faz humanos, e a Inteligência Artifical é uma extensão dessa qualidade.”</i></h2>
             <h1 id="quote">“Our <color>intelligence</color> is what makes us <color>human</color>, and <color>AI</color> is an extension of that <color>quality</color>.”</h1>
             <h2 id="quote-author">Yann LeCun - <color>New York University</color></h2>
          </div>
@@ -44,20 +45,14 @@
             <div id="divisor"></div>
          </div>
          <div class="ceos-info">
-            <h2 id="descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Pellentesque purus ligula, imperdiet quis nibh vel, dignissim
-                semper lectus. Cras metus ante, imperdiet et sem id, maximus
-                eleifend arcu. Duis suscipit tellus venenatis purus tristique, ac
-                dictum erat volutpat. Nam in dui vel nulla aliquet egestas porta
-                in enim. Ut auctor egestas porttitor. Integer eu mi sed eros
-                tristique aliquet vel id elit.</h2>
+            <h2 id="descricao">Na mitologia grega, <color>Ceos</color> é um do titã obscuro que representa a inteligência, sabedoria e conhecimento. Nosso projeto usa uma das áreas mais promissoras da tecnologia atual, a <color>Inteligência Artificial</color>, aplicada em uma conversa, com a máquina aprendendo a se comunicar.</h2>
          </div>
       </div>
       </div>
         <div class="section-teste">
           <div id="ceos-teste">
             <h3 id="teste">
-               <color> 330 milhões</color> de pessoas interagiram com <color>empresas</color> através do Facebook Messenger ano passado. <color>Chatbots</color> são uma nova forma de melhorar a <color>comunicação</color>, devido a sua <color>tecnologia inovadora</color>.
+               Mais de <color> 330 milhões</color> de pessoas interagiram com empresas através do Facebook Messenger ano passado. <color>Chatbots</color> são uma nova forma de melhorar a comunicação, devido a sua <color>tecnologia inovadora</color>.
             </div>
           <div id="ceos-img">
           <img src="img/secao3.jpg" id="image">
@@ -66,7 +61,7 @@
         <div class="section-teste2">
            <div id="logo-img">
               <div id="ceos-moldura">
-                 <img src="img/nano2.png" id="ceos-image">
+                 <img src="img/messenger.png" id="ceos-image">
                 </div>
             </div>
          <div id="ceos-chat">
@@ -90,7 +85,7 @@
                   </div>
                   <div class="box">
                      <div class="msg-baloon">
-                        <h3 id="baloon-h3">Mensagem Inteligência Artificial</h3>
+                        <h3 id="baloon-h3"> Olá, eu sou o <b>CEOS</b>. Deseja iniciar?</h3>
                      </div>
                   </div>
             </div>
@@ -98,7 +93,7 @@
                <div class="message-box-user">
                <div class="box-msg"> 
                   <div class="user-baloon">
-                     <h3 id="baloon-h3"> Mensagem Usuário</h3>
+                     <h3 id="baloon-h3"> Iniciar. </h3>
                   </div>
                   </div>
                </div>
@@ -114,7 +109,7 @@
                </div>
                <div class="box">
                   <div class="msg-baloon">
-                     <h3 id="baloon-h3"> Mensagem Inteligência Artificial</h3>
+                     <h3 id="baloon-h3"> O que veremos hoje? </h3>
                   </div>
                   </div>
             </div>
@@ -122,7 +117,7 @@
                <div class="message-box-user">
                   <div class="box-msg"> 
                      <div class="user-baloon">
-                        <h3 id="baloon-h3"> Mensagem Usuário </h3>
+                        <h3 id="baloon-h3"> <div id="changetxt"></div> </h3>
                      </div>
                      </div>
                   </div>
@@ -138,7 +133,7 @@
                </div>
                <div class="box">
                 <div class="msg-baloon">
-                  <h3 id="baloon-h3"> Mensagem Inteligência Artificial </h3>
+                  <h3 id="baloon-h3"> Certo! Estou procurando o melhor resultado. </h3>
                </div>
             </div>
          </div>
@@ -146,7 +141,80 @@
 </div>
          </div>
          <div id="section-brands">
-            FDSPOKFSDKFOPDSKFOPDSKFOPDSKOPF
+            <div id="section-title-brands"> 
+               <div id="title-brands">
+                  <div id="box-title-brand">
+                     <h3 id="t-brands"> Nosso Chatbot foi criado pensando</h3>
+                     </div>
+                  </div>
+                  <div id="subtitle-brands">
+                     <div id="box-subtitle-brand">
+                        <h3 id="sub-brands">nos seguintes segmentos:</h3>
+                     </div>
+                     </div>
+               </div>
+               <div id="brands-picture">
+                  <div class="brands">
+                     <div class="brands-picture">
+                     <img src="img/startup.png" id="startup">
+                  </div>
+                  <div class="name-brand">
+                  <h4 id="names-brands">Startups</h4>
+                  </div>
+                     </div>
+                  <div class="brands">
+                     <div class="brands-picture">
+                     <img src="img/empresa.png" id="empresa">
+                     </div>
+                     <div class="name-brand">
+                        <h4 id="names-brands"> Empresas</h4>
+                     </div>   
+                     </div>
+                  <div class="brands">
+                     <div class="brands-picture">
+                        <img src="img/brand.png" id="brand">
+                     </div>
+                     <div class="name-brand">
+                        <h4 id="names-brands"> Marcas</h4>
+                     </div>
+                     </div>
+                  <div class="brands">
+                     <div class="brands-picture">
+                        <img src="img/agencia.png" id="agencia">
+                     </div>
+                     <div class="name-brand">
+                        <h4 id="names-brands"> Agências</h4>
+                     </div>
+                     </div>
+                     <div class="brands">
+                        <div class="brands-picture">
+                           <img src="img/influenciador.png" id="influenciador">
+                        </div>
+                        <div class="name-brand">
+                           <h4 id="names-brands">Influenciadores Digitais</h4>
+                        </div>
+                     </div>
+            </div>
+            </div>
+            <div id="bg-vid-section">
+            <div id="vid-ceos">
+            <video autoplay loop mute id="bg-video">
+               <source src="img/vid1.mp4" type="video/mp4">
+            </video>	
+            </div>
             </div>
    </body>
 </html>
+<script>
+   $(document).ready(function(){
+    var textos = ["Acessar catálogo de cosméticos.", "Comparar preços de celular.", "Procurar reservas de hotel.", "Melhores opções de imóveis.", "Buscar produtos de limpeza."];
+    var atual = 0;
+    $('#changetxt').text(textos[atual++]);
+    setInterval(function() {
+        $('#changetxt').fadeOut(function() {
+            if (atual >= textos.length) atual = 0;
+            $('#changetxt').text(textos[atual++]).fadeIn();
+        });
+    }, 3000);
+});
+</script>
