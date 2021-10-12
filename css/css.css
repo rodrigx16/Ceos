@@ -8,7 +8,14 @@ body, html{
   padding: 0 !important;
   scroll-behavior: smooth;
   overflow-x: hidden;
-  background: #282828;
+  background: white;
+  cursor: default;
+  -webkit-touch-callout: none; 
+  -webkit-user-select: none;
+  -khtml-user-select: none; 
+  -moz-user-select: none; 
+  -ms-user-select: none; 
+  user-select: none; 
 }
 body{
   display: flex;
@@ -153,7 +160,13 @@ h4{
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #000000;
   font-weight: 900;
+  animation: fadein 7s;
 }
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
 #titulo{
  width: 100%;
  height: 250px;
@@ -410,7 +423,7 @@ background-color: transparent;
 }
 #section-brands{
   /*background-image: linear-gradient(to right, #6beeff, #63edff, #5aecff, #51ebff, #46eaff, #37ecfd, #25edfb, #00eff9, #00f4f2, #00f8e9, #00fcde, #18ffd1);*/
-  background-image: linear-gradient(to right, #7bed9f, #77f19e, #74f49c, #70f89b, #6cfb99, #63fca2, #5afeab, #50ffb4, #46ffc7, #45fed8, #4efde6, #5ffbf1);
+  background-image: linear-gradient(to right, #00a4aa, #00a4aa, #00a4aa, #00a4aa, #00a4aa, #0fabb0, #19b2b6, #22b9bc, #33c9c9, #42dad7, #50eae4, #5ffbf1);
   width: 100%;
   height: 300px;
   /*box-shadow: 2px 2px gray, -1em 0 0.4em gray;*/
@@ -516,7 +529,78 @@ height: 60px;
   font-weight: lighter;
   text-align: center;
 }
-#bg-vid-section{
+#efeito{
+  width: 26ch;
+  animation: typing 1.5s steps(80), blink .3s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid;
+}
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+#section-waves{
+  background-color: white;
+  width: 100%;
+  height: 800px;
+  position: relative;
+  display: flex;
+}
+canvas{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 0;
+}
+#titulo-ondas{
+  background-color: transparent;
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.wave-title{
+  color: black;
+font-size: 50px;
+font-weight: lighter;
+text-align: justify;
+letter-spacing: 2px;
+font-weight: 400;
+text-decoration: underline 1px;
+}
+.acronym{
+  font-size: 20px;
+  letter-spacing: 5px;
+
+}
+#box-content-wave{
+width: 100%;
+height: 100%;
+background-color: transparent;
+display: flex;
+flex-direction: column;
+}
+#name-ceos-acronym{
+  background-color: transparent;
+  width: 100%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+/*#bg-vid-section{
   background-color: rgb(255, 0, 98);
   width: 100%;
   height: 1080px;
@@ -531,4 +615,4 @@ height: 60px;
  top: 0;
  min-width: 100%;
  min-height: 100%;
-}
+}*/
