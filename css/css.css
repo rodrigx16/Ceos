@@ -254,27 +254,27 @@ color{
   height: 1000px;
   background-color: white;
   display: flex;
-  padding-bottom: 100px;
+  padding-bottom: 40px;
 }
 #logo-img{
 width: 50%;
 height: 100%;
 display: flex;
-justify-content: center;
 align-items: center;
+justify-content: left;
 }
 #ceos-moldura{
-  width:1450px;
-  height:900px;
-  min-width:1450px;
-  min-height:800px;
-  border-radius: 50%;
-  background-color: white;
+  display: flex;
+align-items: center;
+justify-content: left;
+  width: 1000px;
+  height: 620px;
+  min-width: 1050px;
+  min-height: 620px;
 }
 #ceos-image{
-  width: 1450px;
-  height: 800px;
-  margin-left: 347px;
+  width: 1050px;
+  height: 620px;
 }
 #ceos-chat{
   width: 50%;
@@ -713,7 +713,7 @@ box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
    flex-direction: column;
  }
  #pen-introduction{
-background-color: black;
+  background-color: #f0ecec;
 width: 100%;
 height: 20%;
 display: flex;
@@ -725,18 +725,18 @@ display: flex;
  display: flex;
  align-items: center;
  justify-content: center;
- margin-left: 25px;
+ margin-left: 65px;
  flex-direction: column;
  }
  #phrase-title{
-   color: white;
+   color: black;
    font-size: 60px;
    position: absolute;
    bottom: 0;
-   right: 30px;
+   right: 29px;
    }
  #phrase-subtitle{
-  color: white;
+  color: black;
   font-size: 20px;
   margin-left: 50px
 }
