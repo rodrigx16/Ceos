@@ -842,7 +842,7 @@ margin-top: 350px;
 }
 .carousel-frame {
   position: relative;
-  width: 750px;
+  width: 770px;
   height: min(calc(80vh - 10px), 350px);
   margin: 10px auto;
   overflow: hidden;
